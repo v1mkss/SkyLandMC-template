@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SkyLand - Епічний Майнкрафт сервер</title>
+        <link rel="stylesheet" href="src/index.css" />
+        <link
+            rel="preload"
+            as="font"
+            type="font/ttf"
+            href="fonts/Minecraft.ttf"
+            href="fonts/Minecraft-Cyrillic.ttf"
+            crossorigin
+            rel="stylesheet"
+        />
+        <link rel="icon" href="./ico.jpeg" type="image/jpeg" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Головна</a></li>
+                    <li><a href="#about">Про нас</a></li>
+                    <li><a href="#features">Особливості</a></li>
+                    <li><a href="#join">Приєднатися</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <h1 style="text-shadow: 2px 2px 4px #000000">SkyLand</h1>
+                <p style="text-shadow: 1px 1px 2px #000000">
+                    Відкрий новий світ у небесах
+                </p>
+                <a
+                    href="#join"
+                    class="cta-button"
+                    style="text-shadow: 1px 1px 2px #000000"
+                    >Грати зараз</a
+                >
+            </section>
+
+            <section id="about" class="about">
+                <h2>Про наш сервер</h2>
+                <p>
+                    SkyLand - це унікальний Майнкрафт сервер, де ви можете
+                    створити свій власний острів у небі, досліджувати нові світи
+                    та змагатися з іншими гравцями.
+                </p>
+            </section>
+
+            <section id="features" class="features">
+                <h2>Особливості серверу</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <img
+                            src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f3/Grass_Block_JE7_BE6.png"
+                            alt="Унікальні острови"
+                        />
+                        <h3>Унікальні острови</h3>
+                        <p>Створіть свій власний рай у небесах</p>
+                    </div>
+                    <div class="feature-item">
+                        <img
+                            src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f2/Diamond_Sword_JE3_BE3.png"
+                            alt="Епічні битви"
+                        />
+                        <h3>Епічні битви</h3>
+                        <p>Змагайтеся з іншими гравцями у PvP аренах</p>
+                    </div>
+                    <div class="feature-item">
+                        <img
+                            src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e9/Crafting_Table_JE3_BE2.png"
+                            alt="Крафтінг"
+                        />
+                        <h3>Розширений крафтінг</h3>
+                        <p>
+                            Відкрийте нові рецепти та створюйте унікальні
+                            предмети
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="join" class="join">
+                <h2>Приєднуйтесь до нас</h2>
+                <p>IP серверу: play.skyland.com</p>
+                <a href="#" class="cta-button" id="copyIP">Скопіювати IP</a>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>
+                        &copy; 2024 SkyLand by
+                        <a
+                            href="https://github.com/v1mkss/SkyLandMC-Example"
+                            target="_blank"
+                            style="color: wheat"
+                            >v1mkss</a
+                        >
+                        та
+                        <a
+                            href="https://gitlab.com/crystalnetwork-studio"
+                            target="_blank"
+                            style="color: wheat"
+                            >CrystalNetwork Studio</a
+                        >. Minecraft не є нашою торговою маркою. Всі права
+                        захищені.
+                    </p>
+                </div>
+                <div class="social-icons">
+                    <span>Наші соціальні мережі</span>
+                    <a href="https://discord.gg/" target="_blank">
+                        <img
+                            src="./icons/discord.png"
+                            alt="Discord"
+                            class="social-icon discord-icon"
+                        />
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <img
+                            src="./icons/twitter.png"
+                            alt="Twitter"
+                            class="social-icon twitter-icon"
+                        />
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="src/index.js"></script>
+    </body>
+</html>

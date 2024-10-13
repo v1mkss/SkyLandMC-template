@@ -4,7 +4,7 @@
     {
       "type": "chrome",
       "request": "launch",
-      "name": "Launch Brave against localhost",
+      "name": "Launch Preview",
       "url": "http://127.0.0.1:3000/index.html",
       "webRoot": "${workspaceFolder}",
       "runtimeExecutable": "/usr/bin/brave-browser"
